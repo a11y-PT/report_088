@@ -5,31 +5,29 @@ uri: "https://www.cm-alvaiazere.pt/"   # Entre as aspas escreve o domínio do we
 a11y_statement: "https://www.cm-alvaiazere.pt/ficha-tecnica/declaracao-de-acessibilidade-e-usabilidade" # Entre as aspas escreve o URL da Declaração de Acessibilidade do website
 owner: "Município de Alvaiázere"         # Entre as aspas escrever o nome do owner do website
 seal: "Ouro"                          # Entre as aspas escreve Bronze, Prata ou Ouro
-validity: "dd/mm/aaaa a dd/mm/aaaa" # Entre as aspas escreve data de início e data de fim no formato 31/12/1999 a 31/12/2000
-status: "A aguardar correções da entidade" # Entre as aspas escreve uma das seguintes opções: "Auditoria a decorrer", "A aguardar correções da entidade", "Concluído" 
+validity: "28/08/2026 a 28/08/2027" # Entre as aspas escreve data de início e data de fim no formato 31/12/1999 a 31/12/2000
+status: "Concluído" # Entre as aspas escreve uma das seguintes opções: "Auditoria a decorrer", "A aguardar correções da entidade", "Concluído" 
 ---
 
-# Relatório de auditoria
+# Site Institucional do Município de Alvaiázere (Sítio Web)
 
-Sítio Web: {{ page.website }}
+- Data de criação: 15/07/2026
+- URL: https://www.cm-alvaiazere.pt/
+- Propriedade: Município de Alvaiázere
+- Candidatura: Ouro
+- Validade do selo: 28/08/2026 a 28/08/2027
+- Estado: Concluído
 
-- Data de criação: {{ page.date }}
-- URL: {{ page.uri }}
-- Propriedade: {{ page.owner }}
-- Candidatura: {{ page.seal }}
-- Validade do selo: {{ page.validity }}
-- Estado: {{ page.status }}
-
-## Relatório {{ page.website }}
+## Relatório de auditoria
 
 <p>O presente relatório resultou da auditoria da informação publicada na <a href="{{ page.a11y_statement }}">Declaração de Acessibilidade e Usabilidade</a>.</p>
 
-Consulte aqui a última atualização: [Relatório {{ page.website }}](report.html)
+Consulte aqui a última atualização: [Relatório Site Institucional do Município de Alvaiázere](report.html)
 
 <details>
   <summary>Histórico de atualizações</summary>
   <ul aria-label="lista de relatórios já efetuados">
-    <li><a href="15072026_report.html">(15/07/2026). Relatório {{ page.website }}</a></li>
+    <li><a href="28082026_report.html">(28/08/2026). Relatório Site Institucional do Município de Alvaiázere</a></li>
   </ul>
 </details>
 
